@@ -1,0 +1,85 @@
+const requests = [
+    {
+      id: 1,
+      bloodType: "AB+",
+      name: "Athar Rasool",
+      age: 22,
+      gender: "Male",
+      city: 'Karachi',
+      time: '23',
+      priority: "Donor",
+    },
+    {
+      id: 2,
+      bloodType: "O-",
+      name: "Ali Hassan",
+      age: 19,
+      gender: "Male",
+      city: 'Lahore',
+      time: 22,
+      priority: "Donor",
+    },
+    {
+      id: 3,
+      bloodType: "A+",
+      name: "Asghar Poonja",
+      age: 6,
+      gender: "Male",
+      city: 'Islamabad',
+      time: 24,
+      priority: "Donor",
+    }, {
+      id: 4,
+      bloodType: "O+",
+      name: "Hyder Ali",
+      age: 6,
+      gender: "Male",
+      city: 'Hyderabad',
+      time: 24,
+      priority: "Donor",
+    },
+    , {
+      id: 5,
+      bloodType: "AB+",
+      name: "Sameer Khan",
+      age: 32,
+      gender: "Male",
+      city: 'Faisalabad',
+      time: 45,
+      priority: "Donor",
+    },
+    , {
+      id: 6,
+      bloodType: "O-",
+      name: "Zunair",
+      age: 54,
+      gender: "Male",
+      city: 'Kashmir',
+      time: 34,
+      priority: "Donor",
+    },
+  
+  ];
+  
+  const chart = [
+    1.1,
+    3,
+    1.5,
+    2.3,
+    3.2,
+    7,
+    8.2,
+    1.2,
+    2,
+    1.2,
+    8,
+    3.8,
+    5.8,
+    3.9,
+    5.1,
+    0.1,
+    6
+  ];
+  
+ 
+  export { requests, chart }
